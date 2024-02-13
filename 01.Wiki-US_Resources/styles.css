@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ html {
+    font: 12px/1.4 'Agbalumo', 'sans-serif';
+}
+
+body {
+    padding: 2em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+.container {
+    max-width: 870px;
+    margin: 0 auto;
+    background-color: #d5ebea;
+    border: 2px solid black;
+}
+
+.header {
+    text-align: center;
+    font-size: large;
+    margin: 0 auto;
+    max-width: 97%;
+}
+
+.header h1 {
+    padding-top: 0.5em;
+}
+
+.header h1,h4 {
+    border-bottom: 2px solid black;
+}
+
+.header h4 {
+    font-weight: normal;
+}
+
+/* Main content Styles*/
+
+.main-content {
+    padding: 1em;
+}
+
+.container .main-content {
+    padding: 2em 1em;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+
+
+.main-content .left-side {
+    flex: 0 0 35%;
+    padding: 1em;
+    border: 2px solid black;
+}
+
+
+.main-content .left-side .entry-content p {
+    text-indent: 35px;
+    padding-top: 1.5em;
+}
+
+
+
+.main-content .right-side {
+    flex: 1 1 56%
+}
+.right-side  .right-side-paragraph {
+    margin-left: 4em;
+}
+
+
+.main-content .right-side p {
+    text-indent: 35px;
+    max-width: 45ch;
+    padding-top: 1em;
+    font-size: 16px;
+    margin-bottom: -10em;
+}
+
+.main-content .right-side p:last-child {
+    margin-top: 10em;
+}
+
+
+.usa-facts  {
+    text-align: center;
+    padding: 0.5em 1em;
+    width: 34em;
+    background-color: black;
+    color: white;
+
+}
+
+.usa-facts h6 {
+    font-size: large;
+}
+
+.background-cover {
+    background-color: #fff;
+}
+
+.information {
+    padding: 0.8em 2em;
+}
+
+.information p {
+    font-size: 16px;
+}
+.information p span {
+    font-weight: bold;
+}
+
+
+

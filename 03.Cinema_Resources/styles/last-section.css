@@ -1,0 +1,27 @@
+.last-section {
+    background-color: #353434;
+    min-height: 30em;
+}
+
+.last-section .container {
+    display: flex;
+    align-content: center;
+    padding-top: 8em;
+}
+
+.last-section .container .article-before-footer {
+    text-align: center;
+    padding: 1em 2.5em;
+}
+
+.last-section .container .article-before-footer h4 {
+    padding: 1em;
+    color: #ffffff;
+    font-size: 1.3em;
+}
+
+.last-section .container .article-before-footer p{
+    color: #595956;
+}
+
+

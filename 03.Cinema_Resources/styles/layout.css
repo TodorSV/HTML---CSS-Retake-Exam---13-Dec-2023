@@ -1,0 +1,55 @@
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.screen {
+  min-height: 45em;
+  background-repeat: no-repeat;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center -20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cinema-description {
+    background-color: #56dbb1;
+    padding: 4em 8em;
+}
+
+.cinema-description .container {
+    text-align: center;
+    padding: 0 9em;
+}
+
+footer {
+    background-color: #1b9772;
+    padding: 4em 0;
+    
+}
+
+
+footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+footer .container p {
+    color: #53dbb1;
+    letter-spacing: 0.3em;
+}
+
+
+footer .container span {
+color: #dbf9ee;
+}
+
+
+
+/* #53dbb1 */
+
